@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="118" viewBox="0 0 1000 118" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm Guangli Liu. AI Agent Engineer.</title>
+  <desc id="desc">An animated typing introduction for Guangli Liu.</desc>
+
+  <style>
+    :root {
+      --primary: #0969da;
+      --secondary: #1f2328;
+      --cursor: #1f883d;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --primary: #58a6ff;
+        --secondary: #f0f6fc;
+        --cursor: #3fb950;
+      }
+    }
+
+    text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      letter-spacing: 0;
+    }
+
+    .hello {
+      fill: var(--primary);
+      font-size: 34px;
+      font-weight: 700;
+    }
+
+    .role {
+      fill: var(--secondary);
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .cursor {
+      fill: var(--cursor);
+      animation: blink 0.9s steps(1) infinite;
+    }
+
+    @keyframes blink {
+      0%, 48% { opacity: 1; }
+      49%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <g transform="translate(500 42)">
+    <text class="hello" x="0" y="0" text-anchor="middle">Hi, I'm Guangli Liu.</text>
+    <rect class="cursor" x="318" y="-31" width="4" height="38"/>
+  </g>
+
+  <text class="role" x="500" y="94" text-anchor="middle">AI Agent Engineer · LLM Systems</text>
+</svg>
