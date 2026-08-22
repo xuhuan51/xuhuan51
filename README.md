@@ -26,10 +26,11 @@
 
 <div align="center">
   <picture>
-    <source media="(max-width: 620px)" srcset="./assets/agent-workbench-mobile.svg"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hazy-pixel-art-dark.gif"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hazy-pixel-art-light.gif"/>
     <img
-      src="./assets/agent-workbench.svg"
-      alt="Animated agent workbench showing an agent trace and an LLM serving pipeline"
+      src="./assets/hazy-pixel-art-light.gif"
+      alt="Animated developer workspace"
       width="100%"
     />
   </picture>
@@ -60,5 +61,10 @@
 `Python` · `C++` · `CUDA` · `LangGraph` · `FastAPI` · `vLLM` · `Qwen3` · `Docker` · `Kubernetes` · `Prometheus`
 
 <div align="center">
-  <sub>From agent loops to GPU kernels.</sub>
+  <sub>
+    From agent loops to GPU kernels.<br/>
+    Pixel animation from
+    <a href="https://github.com/Hazy019/hazy-readme-cards">Hazy Readme Cards</a>,
+    used under the MIT License.
+  </sub>
 </div>
