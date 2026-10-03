@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="118" viewBox="0 0 1000 118" role="img" aria-labelledby="title desc">
-  <title id="title">Hi, I'm Guangli Liu. AI Agent Engineer.</title>
-  <desc id="desc">An animated typing introduction for Guangli Liu.</desc>
+  <title id="title">Hi, I'm Guangli Liu. AI Infra and LLM Inference Optimization.</title>
+  <desc id="desc">An animated introduction to Guangli Liu's work on LLM serving, GPU kernels, and inference optimization.</desc>
 
   <style>
     :root {
@@ -50,5 +50,5 @@
     <rect class="cursor" x="318" y="-31" width="4" height="38"/>
   </g>
 
-  <text class="role" x="500" y="94" text-anchor="middle">AI Agent Engineer · LLM Systems</text>
+  <text class="role" x="500" y="94" text-anchor="middle">AI Infra · LLM Inference Optimization</text>
 </svg>
