@@ -24,6 +24,18 @@
 
 <br/>
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hazy-pixel-art-dark.gif"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hazy-pixel-art-light.gif"/>
+    <img
+      src="./assets/hazy-pixel-art-light.gif"
+      alt="Animated developer workspace"
+      width="100%"
+    />
+  </picture>
+</div>
+
 ## What I Work On
 
 - **Inference Acceleration** — speculative decoding, verification-budget scheduling, CUDA Graph bucketing, and throughput / latency trade-offs.
@@ -53,20 +65,6 @@
 - **Argus & Alice** — AIOps workflows and agent-platform engineering: evidence-based RCA, sandbox runtimes, streaming orchestration, evaluation, and reliability.
 
 </details>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hazy-pixel-art-dark.gif"/>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hazy-pixel-art-light.gif"/>
-    <img
-      src="./assets/hazy-pixel-art-light.gif"
-      alt="Animated developer workspace"
-      width="640"
-    />
-  </picture>
-</div>
 
 <div align="center">
   <sub>
