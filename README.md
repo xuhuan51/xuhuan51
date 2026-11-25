@@ -53,6 +53,11 @@
 
 - [vLLM #51381](https://github.com/vllm-project/vllm/pull/51381) · **Merged** — session identity propagation for GPU KV Events, with serialization compatibility and prefix-cache regression coverage.
 - [vLLM-Omni #8279](https://github.com/vllm-project/vllm-omni/pull/8279) · **Merged** — restored Qwen3-Omni realtime routing for typed stage configs, with WebSocket and error-event regression coverage.
+- [AISimulate #928](https://github.com/ai-dynamo/aisim/pull/928) · **Merged** — modeled CPU batch-selection latency in non-overlapped SGLang replay.
+- [AISimulate #736](https://github.com/ai-dynamo/aisim/pull/736) · **Open** — retained large calibration checkpoints during supervised search, with memory-bounded recovery of partial results.
+- [AISimulate #785](https://github.com/ai-dynamo/aisim/pull/785) · **Open** — added SGLang prefill chunk-size search independent of the batch token budget.
+- [AISimulate #571](https://github.com/ai-dynamo/aisim/pull/571) · **Open** — aligned simulated request admission and LRU prefix-cache eviction with native SGLang.
+- [AISimulate #737](https://github.com/ai-dynamo/aisim/pull/737) · **Draft** — proposed contributing Ascend 910C operator measurements, with a reproducible validation sample.
 
 ## Working With
 
